@@ -1,0 +1,18 @@
+---
+layout: default
+title: 八月未央
+---
+
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+
+<!--  <h1>Interviews, Talks, Etc</h1>
+  <ul class="posts">
+    <li><span>02 Apr 2005</span> &raquo; <a href="http://joshuaink2006.johnoxton.co.uk/blog/240/seven-and-a-half-questions-for-tom-werner">JoshuaInk: Seven and a half questions for Tom Werner</a></li>
+  </ul>-->
+</div>
