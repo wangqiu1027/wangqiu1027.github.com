@@ -16,6 +16,9 @@ ls -a
 
 linux中 如果文件名前边有个点 类似 .ifcfg-eth0.xxx 就是隐藏文件 直接ls 不显示
 
+{% highlight php %}
+ls -a
+{% endhighlight %}
 
 设置本机网卡，修改文件
 /etc/sysconfig/network-scirpt/ifcfg-eth0 中的信息
