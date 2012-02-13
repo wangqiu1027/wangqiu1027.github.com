@@ -8,9 +8,6 @@ p(date). 2010-08-27
 
 其实就是总结了一下<a href="http://stackoverflow.com/questions/61401/hidden-features-of-php">这个帖子</a>
 
-h1.测试
-
-h2. 测试
 
 h3. 文档
 
